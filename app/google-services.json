@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846205639529",
+    "project_id": "finance-dec49",
+    "storage_bucket": "finance-dec49.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846205639529:android:a5a58285de724137bd7bf8",
+        "android_client_info": {
+          "package_name": "com.goccorp.finance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQn6YC1myxYY2ulbkjxmdOjY6MI_UdwAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
