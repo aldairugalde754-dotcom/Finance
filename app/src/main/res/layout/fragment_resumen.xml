@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="#F5F7FA">
+    android:background="?android:attr/windowBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,6 +79,7 @@
             android:text="Resumen"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="8dp"/>
 
@@ -87,7 +88,7 @@
             android:layout_height="200dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="2dp"
-            app:cardBackgroundColor="#FFFFFF">
+            app:cardBackgroundColor="?attr/colorSurface">
 
             <com.github.mikephil.charting.charts.LineChart
                 android:id="@+id/lineChart"
@@ -102,6 +103,7 @@
             android:text="Movimientos"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="?android:attr/textColorPrimary"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="8dp"/>
 
