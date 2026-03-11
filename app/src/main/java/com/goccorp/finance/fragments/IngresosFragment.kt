@@ -82,7 +82,19 @@ class IngresosFragment : Fragment() {
         val tvDate = view.findViewById<TextView>(R.id.tvDate)
         val btnDate = view.findViewById<Button>(R.id.btnDate)
 
-        val fuentes = arrayOf("Sueldo","Venta","Regalo","Inversión","Otros")
+        val fuentes = arrayOf(
+            "Sueldo",
+            "Venta",
+            "Regalo",
+            "Inversión",
+            "Freelance",
+            "Bonos",
+            "Rentas",
+            "Préstamos",
+            "Dividendos",
+            "Devolución SAT",
+            "Otros"
+        )
 
         spSource.adapter = ArrayAdapter(
             requireContext(),

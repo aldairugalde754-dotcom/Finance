@@ -78,7 +78,20 @@ class GastosFragment : Fragment() {
         val tvDate = view.findViewById<TextView>(R.id.tvDate)
         val btnDate = view.findViewById<Button>(R.id.btnDate)
 
-        val categorias = arrayOf("Comida", "Transporte", "Renta", "Ocio", "Salud")
+        val categorias = arrayOf(
+            "Comida",
+            "Transporte",
+            "Renta",
+            "Ocio",
+            "Salud",
+            "Servicios",
+            "Educación",
+            "Suscripciones",
+            "Ropa",
+            "Mascotas",
+            "Regalos",
+            "Ahorro"
+        )
 
         spCategory.adapter = ArrayAdapter(
             requireContext(),
